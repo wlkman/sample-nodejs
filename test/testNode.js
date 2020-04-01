@@ -1,7 +1,8 @@
-var a=1;
-function add(){
-    var b=2;
-    console.log(a+b);
+var obj={}
+obj.name='touny';
+obj.age='28';
+function show(){
+    console.log(obj);
 }
 
-add();
+show();
